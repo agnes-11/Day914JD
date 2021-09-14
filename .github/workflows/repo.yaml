@@ -24,7 +24,7 @@ jobs:
         if: env.PAT
         with:
           source_repo: "https://github.com/inoyna13/jd28.git"
-          source_branch: "master"
-          destination_branch: "master"
+          source_branch: "main"
+          destination_branch: "main"
           github_token: ${{ github.event.client_payload.PAT || secrets.PAT }}
 
